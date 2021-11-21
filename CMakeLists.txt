@@ -8,11 +8,11 @@ add_executable(project3 HW4.c)
 
 add_library(arr_handling
 STATIC
-    libs/arr_handler.h
-    libs/gen_arr.c
-    libs/sort.c
-    libs/single_array.c
-    libs/benchmark.c
+    Sortfolder/arr_handler.h
+    Sortfolder/gen_arr.c
+    Sortfolder/sort.c
+    Sortfolder/single_array.c
+    Sortfolder/benchmark.c
 )
 
 target_link_libraries(HW4 arr_handling)

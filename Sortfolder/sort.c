@@ -3,7 +3,6 @@
 /* --------------- quick sort -------------------- */
 
 
-#include <stdio.h>
 
 void swap(int i, int j, int *arr) { // Функция для i на j, а j на i (из массива arr)
     int tmp = arr[i];

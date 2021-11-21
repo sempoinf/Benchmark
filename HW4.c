@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-#include "libs/arr_handler.h"
+#include "Sortfolder/arr_handler.h"
 
 int main(void) {
     short flag = 0;
